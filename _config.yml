@@ -1,0 +1,9 @@
+title: Toita86 devblog
+description: A simple devblog powered by Jekyll & GitHub Pages
+baseurl: "" # leave empty if deploying to username.github.io
+url: "https://toita86.github.io"
+
+theme: minima  # simple default theme
+plugins:
+  - jekyll-feed  # RSS feed
+
