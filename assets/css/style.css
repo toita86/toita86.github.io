@@ -7,9 +7,19 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;   /* stack h1, nav, video vertically */
+  align-items: center;      /* center horizontally */
+  justify-content: center;  /* optional: center vertically if header has a height */
+  gap: 1rem;                /* optional spacing between elements */
+  text-align: center;       /* fallback */
+}
+
+#header-video {
+  max-width: 60%;          /* responsive */
+  height: auto;             /* maintain aspect ratio */
+  display: block;           /* remove inline spacing */
+  cursor: pointer;
 }
 
 nav a {
