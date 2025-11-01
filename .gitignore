@@ -1,0 +1,12 @@
+# Ignore the site output folder
+_site/
+
+# Ignore cache and build files
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ignore dependency files
+.bundle/
+vendor/
+
