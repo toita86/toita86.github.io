@@ -8,3 +8,17 @@ layout: default
   {{ content }}
 </article>
 
+<nav class="post-nav" aria-label="Post navigation">
+  {% if page.previous %}
+    <a class="post-nav-item post-nav-prev" href="{{ page.previous.url | relative_url }}">&larr; {{ page.previous.title }}</a>
+  {% else %}
+    <span class="post-nav-item post-nav-prev placeholder" aria-hidden="true"></span>
+  {% endif %}
+
+  {% if page.next %}
+    <a class="post-nav-item post-nav-next" href="{{ page.next.url | relative_url }}">{{ page.next.title }} &rarr;</a>
+  {% else %}
+    <span class="post-nav-item post-nav-next placeholder" aria-hidden="true"></span>
+  {% endif %}
+</nav>
+

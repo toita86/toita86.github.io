@@ -7,3 +7,8 @@ theme: minima  # simple default theme
 plugins:
   - jekyll-feed  # RSS feed
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
