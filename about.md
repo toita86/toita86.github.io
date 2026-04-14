@@ -17,11 +17,11 @@ Somewhere along the way, I fell in love with writing code that helps *other* dev
 
 This space is my learning log.  
 You’ll find:
-- Notes from my **“learn with me” series** (currently exploring the **JUCE framework**, so keep up eye on the posts if you are interested)
+- Notes from my **“learn with me” series** 
 - Thoughts on programming, AI, and my attempts of figuring things out
 - Occasional deep dives into tools or ideas that I find interesting
 
-It’s not meant to be a tutorial site — more like a record of the things that I’m learning and how i got there.
+It’s not meant to be a tutorial site — more like a record of the things that I’m learning and how I got there.
 
 ---
 
@@ -34,13 +34,6 @@ I move between a few stacks depending on the project:
 - **Databases:** PostgreSQL, MongoDB, MySQL  
 
 Mostly, I enjoy understanding *why* things work, not just *how*.
-
----
-
-### What I’m Working On
-
-Lately, I’ve been learning **JUCE**, a C++ framework for building audio applications.  
-It’s been challenging, but that’s exactly why I’m documenting it here — I believe that explaining what you learn is the best way to really learn it.
 
 ---
 

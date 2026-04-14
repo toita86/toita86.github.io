@@ -5,6 +5,23 @@ layout: default
 <article>
   <h1>{{ page.title }}</h1>
   <p><small>{{ page.date | date: "%B %d, %Y" }}</small></p>
+
+  <div id="toc"></div>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const toc = document.getElementById("toc");
+    const headers = document.querySelectorAll("article h2, article h3, article h4");
+    let html = "<h2>Table of Contents</h2><ul>";
+    headers.forEach(h => {
+      const id = h.id || h.textContent.replace(/\s+/g, '-').toLowerCase();
+      h.id = id;
+      html += `<li> <a href="#${id}">${h.textContent}</a></li>`;
+    });
+    html += "</ul>";
+    toc.innerHTML = html;
+  });
+  </script>
+
   {{ content }}
 </article>
 

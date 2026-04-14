@@ -6,9 +6,14 @@ url: "https://toita86.github.io"
 theme: minima  # simple default theme
 plugins:
   - jekyll-feed  # RSS feed
+  - jekyll-mathjax
 
 collections:
   projects:
     output: true
     permalink: /projects/:path/
 
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
